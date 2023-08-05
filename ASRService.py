@@ -16,7 +16,7 @@ class ASRService():
         return result[0]
 
 if __name__ == '__main__':
-    config_path = 'resources/config.yaml'
+    config_path = 'models/config.yaml'
 
     service = ASRService(config_path)
 

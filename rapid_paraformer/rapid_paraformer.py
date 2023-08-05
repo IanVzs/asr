@@ -131,7 +131,7 @@ class RapidParaformer():
 
 if __name__ == '__main__':
     project_dir = Path(__file__).resolve().parent.parent
-    cfg_path = project_dir / 'resources' / 'config.yaml'
+    cfg_path = project_dir / 'config.yaml'
     paraformer = RapidParaformer(cfg_path)
 
     wav_file = '0478_00017.wav'

@@ -1,5 +1,5 @@
 TokenIDConverter:
-  token_path: resources/models/token_list.pkl
+  token_path: models/token_list.pkl
   unk_symbol: <unk>
 
 CharTokenizer:
@@ -8,7 +8,7 @@ CharTokenizer:
   remove_non_linguistic_symbols: false
 
 WavFrontend:
-  cmvn_file: resources/models/am.mvn
+  cmvn_file: models/am.mvn
   frontend_conf:
     fs: 16000
     window: hamming
@@ -21,7 +21,7 @@ WavFrontend:
     dither: 0.0
 
 Model:
-  model_path: resources/models/model.onnx
+  model_path: models/model.onnx
   use_cuda: false
   CUDAExecutionProvider:
       device_id: 0

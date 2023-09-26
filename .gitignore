@@ -166,3 +166,4 @@ models/token_list.pkl
 test_wavs/
 long_text_result.txt
 long_text_result_sentences.txt
+keyframe/

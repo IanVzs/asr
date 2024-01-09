@@ -159,9 +159,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# 资源文件
+# 资源文件 & 结果文件
 models/am.mvn
 models/model.onnx
 models/token_list.pkl
-test_wavs/0478_00017.wav
-
+test_wavs/
+long_text_result.txt
+long_text_result_sentences.txt
+keyframe/
